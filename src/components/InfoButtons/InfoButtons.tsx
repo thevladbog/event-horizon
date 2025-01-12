@@ -8,7 +8,7 @@ import GitHub from '../../assets/icons/github.svg?react';
 
 import './InfoButtons.scss';
 
-const b = block('info-buttons');
+const b = block('info');
 
 export const InfoButtons: React.FC = () => {
     return (

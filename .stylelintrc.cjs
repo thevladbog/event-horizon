@@ -33,6 +33,7 @@ module.exports = {
         'media-feature-name-no-vendor-prefix': true,
         'at-rule-no-vendor-prefix': true,
         'at-rule-no-unknown': null,
+        'scss/at-rule-no-unknown': true,
         'value-keyword-case': ['lower', {camelCaseSvgKeywords: true}],
         'selector-type-case': 'lower',
         'rule-empty-line-before': ['always', {ignore: ['inside-block']}],
