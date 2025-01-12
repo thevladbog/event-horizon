@@ -593,7 +593,7 @@
   resolved "https://registry.yarnpkg.com/@gravity-ui/prettier-config/-/prettier-config-1.1.0.tgz#0a0ac5e8dfbae0de375e01f6aefcb4ace219cd8a"
   integrity sha512-Q97lMSOqdAf337qblkq06mLgK9OEEGglPAj8ncs3WnaZ2rBtOxtNsCIubv5U64TZkxaNPzxd7rDL24VIv1sxJg==
 
-"@gravity-ui/stylelint-config@^4.0.0":
+"@gravity-ui/stylelint-config@^4.0.1":
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/@gravity-ui/stylelint-config/-/stylelint-config-4.0.1.tgz#f6c8b89cd9f2cc7ef6475034e58dce28b6f13b82"
   integrity sha512-Yn5gnfnLt46e0XqTAt41c7OTEMGVt2Cx7cLv1awTKYo7GLTyWuW3Ir7zx5N0J2QiC/LWfouwglOF+KqwVUkXug==

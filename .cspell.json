@@ -21,7 +21,8 @@
     "stylelintrc",
     "tagname",
     "venv",
-    "vite"
+    "vite",
+    "htmlhintrc"
   ],
   "version": "0.2"
 }
