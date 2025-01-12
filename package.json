@@ -34,6 +34,8 @@
     "test": "exit 0"
   },
   "dependencies": {
+    "@bem-react/classname": "^1.6.0",
+    "@gravity-ui/components": "^3.0.0",
     "@gravity-ui/i18n": "^1.7.0",
     "@gravity-ui/icons": "^2.11.0",
     "@gravity-ui/navigation": "^2.27.0",
@@ -41,8 +43,10 @@
     "@tanstack/react-query": "^5.64.0",
     "@tanstack/react-router": "^1.95.3",
     "bem-cn-lite": "^4.1.0",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "postcss": "^8.4.29",
+    "react": "18",
+    "react-dom": "18",
+    "stylelint": "^15.8.0"
   },
   "devDependencies": {
     "@gravity-ui/browserslist-config": "^4.1.0",
@@ -53,9 +57,11 @@
     "@types/react": "^18.2.37",
     "@types/react-dom": "^18.2.15",
     "@vitejs/plugin-react": "^4.2.0",
+    "esbuild": "^0.19.4",
     "esbuild-sass-plugin": "^2.16.0",
     "eslint": "^8.53.0",
     "husky": "^8.0.3",
+    "prettier": "^3.4.2",
     "sass": "^1.68.0",
     "typescript": "^5.2.2",
     "vite": "^5.0.0",
