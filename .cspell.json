@@ -13,16 +13,18 @@
   "noConfigSearch": true,
   "words": [
     "borales",
+    "csstree",
     "degit",
+    "htmlhintrc",
     "megalinter",
     "nvmrc",
     "oxsecurity",
     "stefanzweifel",
     "stylelintrc",
     "tagname",
+    "unspaced",
     "venv",
-    "vite",
-    "htmlhintrc"
+    "vite"
   ],
   "version": "0.2"
 }

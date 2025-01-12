@@ -1,6 +1,19 @@
+const {resolve} = require('path');
+
+const basePath = resolve(__dirname, 'node_modules');
+const groupSelectors = `${basePath}/stylelint-group-selectors`;
+const cssTreeValidator = `${basePath}/stylelint-csstree-validator`;
+
 module.exports = {
-    plugins: ['stylelint-scss', 'stylelint-prettier'],
-    extends: ['stylelint-prettier/recommended'],
+    plugins: [groupSelectors, cssTreeValidator],
+    extends: [
+        'stylelint-prettier/recommended',
+        'stylelint-config-recommended-scss',
+        'stylelint-config-recess-order',
+        'stylelint-prettier/recommended',
+        'stylelint-scss',
+        'stylelint-a11y/recommended',
+    ],
     customSyntax: require('postcss-scss'),
     rules: {
         // Possible errors
