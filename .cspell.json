@@ -11,6 +11,16 @@
   ],
   "language": "en,ru",
   "noConfigSearch": true,
-  "words": ["megalinter", "oxsecurity"],
+  "words": [
+    "borales",
+    "megalinter",
+    "oxsecurity",
+    "stefanzweifel",
+    "venv",
+    "nvmrc",
+    "stylelintrc",
+    "vite",
+    "degit"
+  ],
   "version": "0.2"
 }
