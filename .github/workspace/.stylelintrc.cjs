@@ -3,9 +3,10 @@ const {resolve} = require('path');
 const basePath = resolve(__dirname, 'node_modules');
 const groupSelectors = `${basePath}/stylelint-group-selectors`;
 const cssTreeValidator = `${basePath}/stylelint-csstree-validator`;
+const prettierValidator = `${basePath}/stylelint-prettier/recommended`;
 
 module.exports = {
-    plugins: [groupSelectors, cssTreeValidator],
+    plugins: [groupSelectors, cssTreeValidator, prettierValidator],
     extends: [
         'stylelint-prettier/recommended',
         'stylelint-config-recommended-scss',
