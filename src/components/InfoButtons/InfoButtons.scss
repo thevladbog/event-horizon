@@ -28,7 +28,7 @@ $block: '.info-buttons';
         display: inline-block;
         margin: 0 4px;
 
-        @media (max-width: map-get(variables.$gridBreakpoints, 'md') - 1) {
+        @media (max-width: calc(map-get(variables.$gridBreakpoints, 'md') - 1)) {
             margin-top: 10px;
 
             &:first-child {

@@ -13,14 +13,15 @@
   "noConfigSearch": true,
   "words": [
     "borales",
+    "degit",
     "megalinter",
+    "nvmrc",
     "oxsecurity",
     "stefanzweifel",
-    "venv",
-    "nvmrc",
     "stylelintrc",
-    "vite",
-    "degit"
+    "tagname",
+    "venv",
+    "vite"
   ],
   "version": "0.2"
 }
